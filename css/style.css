@@ -1,0 +1,242 @@
+*{
+	font-family: 'Roboto';
+}
+/*SEÇÃO BANNER*/
+
+#menuelogo{
+	display: flex;
+	background-color: #080808;
+	align-items: center;
+	color: #e39c15;
+	justify-content: space-between;
+	padding: 0 25px 0 0;
+}
+body{
+	margin: 0 auto;
+	background-color: #060f13;
+	color: #e39c15;
+}
+h1{
+	font-weight: 900;
+	color: #e39c15;
+}
+#menu{
+	color: #e39c15;
+	display: flex;
+	column-gap: 15px;
+
+
+
+}
+#menu a{
+	text-decoration: none;
+	color: #e39c15;
+	transition: 0.5s;
+	height: 20px;
+}
+#menu a:hover{
+	color: white;
+	border-bottom:1px solid white;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
+
+#banner{
+	max-width: 1100px;
+	margin-inline: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 56px 0;
+}
+#banner  h2 {
+	max-width: 600px;
+	font-size: 45px;
+
+}
+#banner p{
+	max-width: 400px;
+	font-size: 20px;
+}
+.btns{
+	display: flex;
+	column-gap: 20px;
+}
+button{
+	width: 100%;
+	max-width: fit-content;
+	text-align: center;
+	background-color:#fff;
+	padding:8px 20px ;
+	border-radius: 50px;
+	color:#080808;
+	border:1px solid black;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+
+
+}
+.btn1{
+	background-color: #080808;
+	color: white;
+	border: none;
+
+}
+.imgbig{
+
+}
+/*SEÇÃO PRODUTOS*/
+
+#produtos{
+	display: flex;
+	justify-content: center;
+	column-gap: 80px;
+	padding: 50px 0;
+/*	background-image: url('../img/background-produtos.jpg');*/
+	background-color: #332f30;
+}
+#produtos .card{
+	text-align: center;
+}
+.card img {
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 20px;
+
+
+
+}
+.card a{
+	color: goldenrod;
+	font-size: 20px;
+	
+}
+.card a:hover{
+	color: blue;
+}
+#produtos .card p{
+	color: white;
+}
+#old{
+	display: flex;
+	justify-content: center;
+	column-gap: 80px;
+	padding: 50px 50px;
+}
+#old img{
+	width: 300px;
+	height: 300px;
+	padding: 0 50px;
+	object-fit: cover;
+
+}
+#oriental{
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+
+
+
+}
+#oriental img{
+	width: 300px;
+	height: 300px;
+	padding: 0 50px;
+	object-fit: cover;
+}
+
+#maori{
+	display: flex;
+	justify-content: center;
+
+}
+#maori img{
+	width: 300px;
+	height: 300px;
+	padding: 50px 50px;
+}
+/*SEÇÃO DEPOIMENTOS*/
+
+#depoimentos{
+	text-align: center;
+}
+#depoimentos h3{
+	font-size: 35px;
+}
+#depoimentos #input{
+	display: flex;
+	column-gap: 5px;
+}
+#depoimentos p{
+	font-size: 20px;
+
+}
+#depoimentos #input input{
+	background-color: #E5BB5f;
+	width: 100%;
+	height: 35px;
+
+
+
+}
+#input input::placeholder{
+	color: black;
+	font-size: 18px;
+		
+}
+#depoimentos textarea::placeholder{
+	color: black;
+	font-size: 18px;
+
+}
+
+#depoimentos textarea{
+	width: 100%;
+	max-width: 500px;
+	margin: 15px 0 ;
+	background-color: #e5bb5f;
+	resize: none;
+
+}
+#depoimentos #btn2{
+	background-color: #80afce;
+	font-size: 15px;
+	display: block;
+}
+form{
+	width: 100%;
+	max-width: 500px;
+	margin-inline: auto;
+
+}
+
+/*SEÇÃO CONTATOS*/
+
+#contatos{
+
+}
+#contatos p{
+	text-align: center;
+}
+#contatos ul{
+	list-style: none;
+	padding: 10px ;
+}
+#contatos li{
+	padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
